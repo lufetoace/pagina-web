@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head> 
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	  
+	  
+	  <style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:550px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#373B3A;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	  
+	  
+	  
+	  
+    <title>mecanica</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Universidad industrial de Santander</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          
+		
+		
+		<div id="header">
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Datos Técnicos</a>
+					<ul>
+						<li><a href="sensores.html">Sensores</a></li>
+						<li><a href="mecanica.html">Sistemas Mecánicos</a></li>
+            <li><a href="comunicaciones.html">Comunicaciones</a></li>
+						</li>
+					</ul>
+				</li>
+				<li><a href="live.html">LIVE</a>
+				</li>
+				
+			</ul>
+		
+		</div>
+		
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="overlay">
+        <div class="container">
+          <h1 class="display-1 text-white">SISTEMAS MECÁNICOS</h1>
+          <h2 class="display-4 text-white">ESTACIÓN METEREOLÓGICA</h2>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="pictures/caja.JPG" alt="Medidas">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">DISEÑO</h2>
+              <p>Se establecieron las medidas que se aprecian en la imagen de acuerdo a las medidas de los sensores y circuitos integrados que se van a usar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	  
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-square" src="pictures/modelo_caja_xy.jpeg" alt="Distribución_xy">
+            </div>
+            
+          </div>
+          <div>
+            <div class="p-5">
+              <h2 class="display-4">Distribución</h2>
+              <br>
+              <li>Se planteo esta distribucion en especifico, separando en diferentes secciones para colocar los distintos elementos de censado, trasmisión y alimentacion del modulo.
+              </li>
+            </div>
+          </div>
+          <div class="col-md-6 order-2">
+              <div class="p-5">
+              <img class="img-fluid rounded-square" src="pictures/modelo_caja_x.jpeg" alt="Distribución_xz">
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+       <div class="container">
+        <div class="row align-items-center">
+           <div class="p-5">
+              <h2 class="display-4">Toma de muestras</h2>
+              <p>Para llevar acabo la toma de muestras se hará con bombas de agua de 6V y 12V como se muestra en el video.</p>
+            </div>
+	    <div class="p-5">
+		    <video src="video/videoplayback.MP4" poster="pictures/bomba.JPG" controls></video>
+            </div>
+          </div>  
+        </div>  
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-square" src="pictures/caja1.PNG" alt="Medidas">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">DISEÑO DEFINITIVO</h2>
+              <p>Las medidas de la nueva caja son 20.5cmx20.5cmx6.5cm; tiene agujeros para el sensor de pH, de
+                temperatura, la manguera para tomar la muestra, y el cable que permitirá la comunicación desde el
+                módulo hasta la boya, como se puede ver en la figura 7.5.
+                Se le agregaron unas puntillas en las esquinas, como forma de base, para que al momento de
+              sumergirse no toque el fondo y así mismo el sensor de temperatura no toque el suelo.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-square" src="pictures/Captura.PNG" alt="Medidas">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">DISEÑO PARA LA COMINICACIÓN</h2>
+              <p>Adicionalmente, debe tener una boya que permita la comunicación entre el modulo que va estar
+                 sumergido (dentro del agua) con el módulo Wi-Fi y de este hacia donde va estar montado el servidor
+                 para la muestra de los datos. La estructura física de la boya es una forma esférica hecha en icopor
+                 además cuenta con cuatro palos de balso que cruza por la mitad de dicha esfera, todo esto con el fin
+                 de que haya flotabilidad y estabilidad para que no se hunda cuando esta esté sobre el agua.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-square" src="pictures/flota.PNG" alt="Medidas">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">PRUEBAS EN EL AGUA</h2>
+              <p>Se realizó la prueba con la boya para verificar si se mantenía estable y flotaba, efectivamente funciona.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 order-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-square" src="pictures/peso.PNG" alt="Medidas">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h2 class="display-4">REQUERIMIENTOS DE PESO</h2>
+              <p>Internamente el módulo contendrá la raspberry, el arduino, los sensores, baterías, y todas las 
+                conexiones cableadas que sean necesarias junto con los circuitos adicionales para el ensamble general.
+                 Para que el módulo pueda sumergirse fácilmente debe tener ciertas características como
+                 tener la menor cantidad de aire posible en su interior, ser totalmente hermética para prevenir el
+               ingreso de agua, tener una resistencia a la presión y permitir que los sensores queden expuestos para
+             que puedan tomar los datos adecuadamente</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+	<p class="m-0 text-center text-white">Universidad Industrial de Santander 2018-I</p>
+        <p class="m-0 text-center text-white">Copyright & copy</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
