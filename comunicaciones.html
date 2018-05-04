@@ -96,8 +96,8 @@
 				<li><a href="">Datos Técnicos</a>
 					<ul>
 						<li><a href="sensores.html">Sensores</a></li>
-						<li><a href="mecanica.html">Sistemas Mecánicos</a></li>
-						<li><a href="comunicaciones.html">Comunicaciones</a></li>
+						<li><a href="mecanica.html">esquema de conexiones</a></li>
+						<li><a href="comunicaciones.html">Programación</a></li>
 					
 						</li>
 					</ul>
@@ -116,7 +116,7 @@
     <header class="masthead">
       <div class="overlay">
         <div class="container">
-          <h1 class="display-1 text-white">COMUNICACIONES</h1>
+          <h1 class="display-1 text-white">PROGRAMACIÓN</h1>
           <h2 class="display-4 text-white">ESTACIÓN METEREOLÓGICA</h2>
         </div>
       </div>
@@ -133,52 +133,14 @@
           <div class="col-md-6 order-1">
             <div class="p-5">
               <h2 class="display-4">MODULO DE WIFI</h2>
-              <p>Se utilizara un modulo WIFI (ESP 8266), que estará conectado a un arduino, este modulo es programado mediante códigos AT (son instrucciones codificadas que conforman un lenguaje de comunicación entre el hombre y un terminal modem), la primera parte de dicha programación se basa en la asignación de una red WIFI al modulo que se realiza sin el microcontrolador del arduino porque esto se cargara directamente al ESP8266. después se adiciona otra vez el microcontrolador al arduino para cargar el código de envió de datos.</p>
+              <p> </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-2">
-            <div class="p-5">
-              <img class="img-fluid rounded-square" src="pictures/boya.jpg" alt="boya">
-            </div>
-          </div>
-          <div class="col-md-6 order-1">
-            <div class="p-5">
-              <h2 class="display-4">UBICACION EN LA INTERFAZ MECÁNICA</h2>
-              <p>El modulo WIFI se conectara con las raspberry mediante un cable USB, esta cable estará forado por una manguera que lo protegerá de las filtraciones de agua que pueda tener, además este modulo se encuentra ubicando en una boya y la raspberry en un modulo sumergible a 40 cm de la superficie del agua. La transmisión y recepción de datos se realizara estando conectado a una red local de internet.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 order-2">
-            <div class="p-5">
-
-              <img class="img-fluid rounded-square" src="pictures/descarga.jpg" alt="Edup usb">
-            </div>
-          </div>
-          <div class="col-md-6 order-1">
-            <div class="p-5">
-            	<h2 class="display-4">Edup usb </h2>
-            	<p>Debido a las limitaciones de memoria (96 [kB]) del módulo ESP-8266 no se pudo implementar para transmitir de todos los datos del proyecto temperatura, presión, pH e imágenes de la cámara. Por esta razón se cambió de módulo wifi y se utilizó uno llamado “Edup usb” de referencia 802.11N, la ventaja de este módulo es que no necesita configuración previa y tiene gran capacidad para enviar todos los datos del proyecto.</p>
-               <p> Guia de uso: <a href="http://www.mediafire.com/file/dr1sww9zusy47v0/Comunicaciones_.pdf" > Aquí </a> 
-               </p>
           </div>
         </div>
       </div>
     </section>
 
     
-	  
       <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
